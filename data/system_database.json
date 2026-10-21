@@ -1,0 +1,916 @@
+{
+  "procedures": [
+    {
+      "id": "proc-khai-sinh",
+      "name": "Đăng ký khai sinh (Dưới 14 tuổi)",
+      "code": "1.000854.000.00.00.H49",
+      "category": "Hộ tịch",
+      "keywords": [
+        "khai sinh",
+        "giấy khai sinh",
+        "sinh con",
+        "làm khai sinh",
+        "chứng sinh",
+        "đăng ký sinh"
+      ],
+      "actionUrl": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.000854.000.00.00.H49",
+      "videoTutorialUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "summary": "Thực hiện đăng ký khai sinh cho trẻ em sinh ra dưới 14 tuổi tại UBND phường nơi cư trú của cha hoặc mẹ.",
+      "counterDepartment": "Quầy số 01 - Tư pháp & Hộ tịch (Tầng trệt UBND Phường Tân Mỹ)",
+      "processingTime": "Ngay trong ngày làm việc",
+      "fee": "Miễn phí cho công dân Việt Nam",
+      "steps": [
+        {
+          "title": "Bước 1: Chuẩn bị đầy đủ hồ sơ giấy tờ",
+          "description": "Chuẩn bị Giấy chứng sinh bản gốc và Căn cước công dân của cha mẹ.",
+          "tips": "Nếu sinh tại cơ sở y tế thì lấy Giấy chứng sinh bản chính do viện cấp."
+        },
+        {
+          "title": "Bước 2: Đăng nhập VNeID và nộp hồ sơ",
+          "description": "Bấm nút màu xanh lá cây, chọn đăng nhập bằng tài khoản Định danh điện tử VNeID (quét mã QR hoặc nhập số định danh + mật khẩu) rồi điền biểu mẫu điện tử.",
+          "tips": "Đăng nhập VNeID mức 2 sẽ tự động điền sẵn thông tin cha mẹ."
+        },
+        {
+          "title": "Bước 3: Nhận thông báo thụ lý và Giấy khai sinh",
+          "description": "Cán bộ Một cửa phường thụ lý, kiểm tra dữ liệu và trả kết quả Giấy khai sinh chính thức.",
+          "tips": "Phường hỗ trợ đồng thời cấp thẻ BHYT và đăng ký thường trú liên thông."
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Giấy chứng sinh (Bản chính do bệnh viện cấp)",
+          "isRequired": true,
+          "note": "Bản gốc còn nguyên vẹn"
+        },
+        {
+          "name": "Tờ khai đăng ký khai sinh (điền trên cổng dịch vụ công hoặc mẫu giấy)",
+          "isRequired": true,
+          "note": "Theo mẫu điện tử"
+        },
+        {
+          "name": "Căn cước công dân của cha và mẹ",
+          "isRequired": true,
+          "note": "Tự động đồng bộ qua VNeID"
+        },
+        {
+          "name": "Giấy chứng nhận kết hôn của cha mẹ (nếu có)",
+          "isRequired": false,
+          "note": "Bản trích lục hoặc đối chiếu"
+        }
+      ],
+      "customSpeechText": "Trước khi thực hiện dịch vụ Đăng ký khai sinh, bạn cần chuẩn bị các loại hồ sơ sau: Thứ nhất, Giấy chứng sinh bản chính do cơ sở y tế cấp. Thứ hai, Căn cước công dân của cha và mẹ để đối chiếu. Thứ ba, Giấy chứng nhận kết hôn của cha mẹ nếu có. Sau đây là các bước hướng dẫn: Bạn hãy bấm vào nút màu xanh lá cây trên màn hình, sau đó sử dụng ứng dụng VNeID trên điện thoại để quét mã QR đăng nhập, hoặc nhập trực tiếp số định danh cá nhân 12 số cùng mật khẩu. Sau đó thực hiện điền các thông tin theo mẫu yêu cầu trên hệ thống. Bạn cũng có thể bấm vào nút Video bên cạnh để xem mẫu thao tác trực quan.",
+      "createdAt": 1715000000000,
+      "updatedAt": 1715000000000
+    },
+    {
+      "id": "proc-ket-hon",
+      "name": "Đăng ký kết hôn",
+      "code": "1.000858.000.00.00.H49",
+      "category": "Hộ tịch",
+      "keywords": [
+        "kết hôn",
+        "lấy vợ",
+        "lấy chồng",
+        "đăng ký kết hôn",
+        "hôn nhân",
+        "làm hôn thú"
+      ],
+      "actionUrl": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.000858.000.00.00.H49",
+      "videoTutorialUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "summary": "Đăng ký kết hôn giữa công dân Việt Nam tại UBND phường nơi cư trú của một trong hai bên.",
+      "counterDepartment": "Quầy số 01 - Tư pháp & Hộ tịch (UBND Phường Tân Mỹ)",
+      "processingTime": "Trong ngày làm việc",
+      "fee": "Miễn phí",
+      "steps": [
+        {
+          "title": "Bước 1: Chuẩn bị hồ sơ",
+          "description": "Tờ khai đăng ký kết hôn và Giấy xác nhận tình trạng hôn nhân (nếu cư trú ngoài địa bàn phường).",
+          "tips": "Nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi."
+        },
+        {
+          "title": "Bước 2: Nộp trực tuyến qua VNeID hoặc trực tiếp",
+          "description": "Đăng nhập Cổng dịch vụ công qua VNeID để kê khai trước, giúp giảm thời gian làm thủ tục tại phường.",
+          "tips": "Hai bên nam nữ cùng có mặt để ký vào sổ đăng ký kết hôn."
+        },
+        {
+          "title": "Bước 3: Ký sổ và nhận Giấy chứng nhận kết hôn",
+          "description": "Lãnh đạo UBND phường trao 02 bản chính Giấy chứng nhận kết hôn cho vợ và chồng.",
+          "tips": "Mỗi người giữ một bản chính."
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Tờ khai đăng ký kết hôn (hai bên cùng ký tên)",
+          "isRequired": true,
+          "note": "Theo mẫu"
+        },
+        {
+          "name": "Giấy xác nhận tình trạng hôn nhân (nếu cư trú ngoài phường Tân Mỹ)",
+          "isRequired": true,
+          "note": "Bản chính còn hạn 6 tháng"
+        },
+        {
+          "name": "Căn cước công dân của hai bên nam nữ",
+          "isRequired": true,
+          "note": "Xác thực qua VNeID"
+        }
+      ],
+      "customSpeechText": "Trước khi thực hiện dịch vụ Đăng ký kết hôn, bạn cần chuẩn bị các loại hồ sơ sau: Thứ nhất, Tờ khai đăng ký kết hôn do hai bên cùng ký. Thứ hai, Giấy xác nhận tình trạng hôn nhân nếu một trong hai người không thường trú tại phường Tân Mỹ. Thứ ba, Căn cước công dân của hai bên nam nữ. Sau đây là các bước hướng dẫn: Bạn hãy bấm vào nút màu xanh lá cây để quét mã QR VNeID hoặc nhập số định danh đăng nhập, sau đó điền tờ khai trực tuyến. Bạn có thể bấm vào nút Video bên cạnh để xem clip hướng dẫn thao tác chi tiết.",
+      "createdAt": 1715000000000,
+      "updatedAt": 1715000000000
+    },
+    {
+      "id": "proc-xac-nhan-doc-than",
+      "name": "Cấp Giấy xác nhận tình trạng hôn nhân (Độc thân)",
+      "code": "1.000862.000.00.00.H49",
+      "category": "Hộ tịch",
+      "keywords": [
+        "độc thân",
+        "giấy độc thân",
+        "xác nhận độc thân",
+        "tình trạng hôn nhân",
+        "chứng nhận độc thân",
+        "chưa kết hôn"
+      ],
+      "actionUrl": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.000862.000.00.00.H49",
+      "videoTutorialUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "summary": "Cấp giấy xác nhận tình trạng hôn nhân để sử dụng kết hôn, vay vốn, mua bán nhà đất...",
+      "counterDepartment": "Quầy số 01 - Tư pháp & Hộ tịch (UBND Phường Tân Mỹ)",
+      "processingTime": "Trong 03 ngày làm việc",
+      "fee": "15.000 VNĐ / trường hợp",
+      "steps": [
+        {
+          "title": "Bước 1: Chuẩn bị thông tin mục đích sử dụng",
+          "description": "Ghi rõ mục đích (kết hôn, chuyển nhượng nhà đất, vay vốn...).",
+          "tips": "Mục đích sử dụng không được để trống."
+        },
+        {
+          "title": "Bước 2: Nộp hồ sơ trực tuyến qua VNeID",
+          "description": "Bấm nút nộp trực tuyến, quét mã đăng nhập VNeID và đính kèm giấy tờ ly hôn hoặc chứng tử của vợ/chồng cũ nếu có.",
+          "tips": "Nhận kết quả bản điện tử hoặc bản giấy tại một cửa."
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Tờ khai cấp Giấy xác nhận tình trạng hôn nhân",
+          "isRequired": true,
+          "note": "Ghi rõ mục đích"
+        },
+        {
+          "name": "Căn cước công dân của người yêu cầu",
+          "isRequired": true,
+          "note": "Định danh VNeID"
+        },
+        {
+          "name": "Trích lục bản án ly hôn hoặc Giấy chứng tử (nếu đã từng kết hôn)",
+          "isRequired": false,
+          "note": "Nếu có"
+        }
+      ],
+      "customSpeechText": "Trước khi thực hiện dịch vụ cấp Giấy xác nhận tình trạng hôn nhân, bạn cần chuẩn bị các loại hồ sơ sau: Thứ nhất, Tờ khai nêu rõ mục đích sử dụng giấy xác nhận. Thứ hai, Căn cước công dân của bạn. Thứ ba, Bản sao quyết định ly hôn hoặc giấy chứng tử của vợ chồng cũ nếu trước đây bạn đã từng kết hôn. Sau đây là hướng dẫn: Bạn hãy bấm vào nút màu xanh lá cây để đăng nhập VNeID bằng cách quét mã QR hoặc nhập số định danh, sau đó thực hiện điền các bước trên form.",
+      "createdAt": 1715000000000,
+      "updatedAt": 1715000000000
+    },
+    {
+      "id": "proc-sao-y-cong-chung",
+      "name": "Chứng thực bản sao từ bản chính (Sao y, công chứng)",
+      "code": "1.000870.000.00.00.H49",
+      "category": "Chứng thực",
+      "keywords": [
+        "chứng thực",
+        "công chứng",
+        "sao y",
+        "bản sao",
+        "photo công chứng",
+        "chứng thực bản sao",
+        "sao y bản chính"
+      ],
+      "actionUrl": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.000870.000.00.00.H49",
+      "videoTutorialUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "summary": "Chứng thực bản sao từ bản chính các giấy tờ, văn bằng, chứng chỉ, CCCD...",
+      "counterDepartment": "Quầy số 02 - Chứng thực (UBND Phường Tân Mỹ)",
+      "processingTime": "15 - 30 phút trong ngày làm việc",
+      "fee": "2.000 VNĐ / trang",
+      "steps": [
+        {
+          "title": "Bước 1: Chuẩn bị bản chính và bản photocopy",
+          "description": "Mang bản chính nguyên vẹn kèm bản photo cần chứng thực.",
+          "tips": "Bản chính không tẩy xóa, rách rời."
+        },
+        {
+          "title": "Bước 2: Nộp hồ sơ và ký chứng thực",
+          "description": "Cán bộ đối chiếu, lãnh đạo ký và đóng dấu mộc đỏ bàn giao.",
+          "tips": "Có thể yêu cầu chứng thực bản sao điện tử để dùng online nhiều lần."
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Bản chính giấy tờ, văn bản cần chứng thực",
+          "isRequired": true,
+          "note": "Bản gốc rõ chữ"
+        },
+        {
+          "name": "Bản photocopy tương ứng cần chứng thực",
+          "isRequired": true,
+          "note": "Photo rõ nét"
+        }
+      ],
+      "customSpeechText": "Trước khi thực hiện dịch vụ Chứng thực bản sao từ bản chính, bạn cần chuẩn bị các loại hồ sơ sau: Thứ nhất, Bản chính giấy tờ còn nguyên vẹn, rõ chữ. Thứ hai, Bản photocopy tương ứng cần sao y. Bạn có thể bấm nút màu xanh lá cây để yêu cầu chứng thực bản sao điện tử qua VNeID, hoặc bấm nút Video bên cạnh để xem thao tác mẫu.",
+      "createdAt": 1715000000000,
+      "updatedAt": 1715000000000
+    },
+    {
+      "id": "proc-tam-tru-thuong-tru",
+      "name": "Đăng ký tạm trú / Thông báo lưu trú",
+      "code": "1.000910.000.00.00.H49",
+      "category": "Cư trú",
+      "keywords": [
+        "tạm trú",
+        "thường trú",
+        "hộ khẩu",
+        "nhập khẩu",
+        "chuyển khẩu",
+        "cư trú",
+        "đăng ký tạm trú",
+        "khai báo tạm trú"
+      ],
+      "actionUrl": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=27357",
+      "videoTutorialUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "summary": "Đăng ký tạm trú cho công dân đến sinh sống tại nơi ở hợp pháp trên 30 ngày.",
+      "counterDepartment": "Quầy Công an Phường Tân Mỹ (Bộ phận Một cửa)",
+      "processingTime": "03 ngày làm việc",
+      "fee": "7.000 VNĐ (trực tuyến)",
+      "steps": [
+        {
+          "title": "Bước 1: Chuẩn bị giấy tờ chỗ ở",
+          "description": "Hợp đồng thuê nhà, mượn nhà hoặc giấy tờ quyền sở hữu chỗ ở hợp pháp.",
+          "tips": "Cần ý kiến đồng ý của chủ sở hữu chỗ ở."
+        },
+        {
+          "title": "Bước 2: Đăng nhập VNeID và nộp hồ sơ",
+          "description": "Bấm nút nộp trực tuyến, đăng nhập bằng VNeID và đính kèm hồ sơ.",
+          "tips": "Kết quả sẽ hiển thị trên VNeID của công dân."
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01)",
+          "isRequired": true,
+          "note": "Chủ nhà ký đồng ý"
+        },
+        {
+          "name": "Giấy tờ chứng minh chỗ ở hợp pháp (Hợp đồng thuê, sổ đỏ...)",
+          "isRequired": true,
+          "note": "Bản sao chụp"
+        },
+        {
+          "name": "Căn cước công dân của người đăng ký",
+          "isRequired": true,
+          "note": "Định danh VNeID"
+        }
+      ],
+      "customSpeechText": "Trước khi thực hiện dịch vụ Đăng ký tạm trú, bạn cần chuẩn bị các loại hồ sơ sau: Thứ nhất, Tờ khai thay đổi thông tin cư trú Mẫu CT01 có ý kiến đồng ý của chủ hộ. Thứ hai, Hợp đồng thuê nhà hoặc giấy tờ chứng minh chỗ ở hợp pháp. Thứ ba, Căn cước công dân của bạn. Sau đây là các bước: Bạn hãy bấm vào nút màu xanh lá cây để quét mã QR VNeID hoặc đăng nhập bằng số định danh, sau đó thực hiện gửi hồ sơ trực tuyến theo biểu mẫu.",
+      "createdAt": 1715000000000,
+      "updatedAt": 1715000000000
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "title": "UBND Phường Tân Mỹ chính thức triển khai \"Trợ lý số thông minh\" hướng dẫn thủ tục hành chính bằng giọng nói",
+      "summary": "Ứng dụng chuyển đổi số vượt trội giúp người dân, đặc biệt là người cao tuổi, dễ dàng tra cứu hồ sơ và tiếp cận dịch vụ công trực tuyến một cách thân thiện.",
+      "content": "Nhằm đẩy mạnh công tác cải cách hành chính và nâng cao chỉ số phục vụ nhân dân, sáng nay UBND Phường Tân Mỹ đã chính thức đưa vào vận hành hệ sinh thái \"Trợ lý số thông minh\".\nHệ thống tích hợp công nghệ nhận diện giọng nói tiếng Việt chuẩn xác, hỗ trợ người dân tự động tra cứu danh mục giấy tờ cần chuẩn bị, hướng dẫn 2 cách đăng nhập VNeID và cung cấp đường link nộp hồ sơ trực tuyến ngay tại quầy tiếp nhận một cửa.",
+      "category": "Chuyển đổi số",
+      "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+      "sourceUrl": "https://facebook.com/ubndphuongtanmy",
+      "publishedAt": "20/10/2026",
+      "author": "Tổ Chuyển đổi số Phường",
+      "viewsCount": 1420,
+      "isFeatured": true
+    },
+    {
+      "id": "news-2",
+      "title": "Công an Phường Tân Mỹ tổ chức cấp tài khoản định danh điện tử VNeID mức 2 lưu động tại các khu phố",
+      "summary": "Đoàn công tác trực tiếp đến từng tổ dân phố để hướng dẫn và kích hoạt VNeID mức 2 cho bà con nhân dân, kết hợp hỗ trợ tích hợp giấy tờ.",
+      "content": "Thực hiện Đề án 06 của Chính phủ, Công an Phường Tân Mỹ phối hợp cùng Đoàn Thanh niên tổ chức các điểm cấp và kích hoạt VNeID lưu động vào các buổi tối trong tuần tại các nhà văn hóa khu phố. Người dân chỉ cần mang theo Căn cước công dân gắn chip để được xử lý nhanh chóng trong vòng 5 phút.",
+      "category": "An ninh trật tự",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+      "sourceUrl": "https://facebook.com/conganphuongtanmy",
+      "publishedAt": "18/10/2026",
+      "author": "Công an Phường Tân Mỹ",
+      "viewsCount": 980,
+      "isFeatured": true
+    },
+    {
+      "id": "news-3",
+      "title": "Chi trả chế độ an sinh xã hội, người có công tháng qua tài khoản an sinh số",
+      "summary": "Thực hiện chi trả kịp thời, chính xác cho 100% đối tượng thụ hưởng chính sách an sinh xã hội trên địa bàn phường Tân Mỹ qua tài khoản ngân hàng.",
+      "content": "Bộ phận Lao động - Thương binh và Xã hội UBND Phường Tân Mỹ thông báo đã hoàn tất việc chuyển tiền trợ cấp hàng tháng cho các gia đình người có công, bảo trợ xã hội và hộ cận nghèo qua tài khoản an sinh xã hội. Đối với người cao tuổi neo đơn, cán bộ bưu điện phối hợp công chức phường mang trợ cấp đến tận nhà trao tận tay.",
+      "category": "Chính sách mới",
+      "imageUrl": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?auto=format&fit=crop&w=800&q=80",
+      "publishedAt": "15/10/2026",
+      "author": "Bộ phận LĐ-TB&XH",
+      "viewsCount": 750,
+      "isFeatured": false
+    },
+    {
+      "id": "news-4",
+      "title": "Phường Tân Mỹ ra quân tổng vệ sinh môi trường, lập lại trật tự lòng lề đường",
+      "summary": "Tập trung xử lý nghiêm các trường hợp lấn chiếm vỉa hè kinh doanh trái phép, xả rác bừa bãi và kiểm tra an toàn PCCC nhà ở kết hợp kinh doanh.",
+      "content": "Đội Quản lý Trật tự Đô thị phối hợp lực lượng Bảo vệ an ninh trật tự cơ sở đã đồng loạt ra quân kiểm tra các tuyến đường trọng điểm trên địa bàn phường. Đợt ra quân nhận được sự đồng thuận cao của người dân, trả lại không gian thông thoáng cho người đi bộ.",
+      "category": "Hoạt động Phường",
+      "imageUrl": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80",
+      "publishedAt": "12/10/2026",
+      "author": "Đội Trật tự Đô thị",
+      "viewsCount": 620,
+      "isFeatured": false
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch-1",
+      "leaderName": "Đồng chí Nguyễn Văn An",
+      "leaderRole": "Chủ tịch UBND Phường",
+      "dateStr": "Thứ Năm, 22/10/2026",
+      "timeStr": "08:00 - 11:30",
+      "location": "Phòng Tiếp công dân (Trụ sở UBND Phường)",
+      "type": "Tiếp công dân",
+      "content": "Chủ tịch UBND Phường trực tiếp chủ trì phiên tiếp công dân định kỳ tuần 43. Lắng nghe, xử lý phản ánh, khiếu nại của người dân trên địa bàn.",
+      "isImportant": true
+    },
+    {
+      "id": "sch-2",
+      "leaderName": "Đồng chí Trần Thị Mai",
+      "leaderRole": "Phó Chủ tịch UBND (Văn xã)",
+      "dateStr": "Thứ Năm, 22/10/2026",
+      "timeStr": "14:00 - 16:30",
+      "location": "Bộ phận Một cửa UBND Phường",
+      "type": "Kiểm tra địa bàn",
+      "content": "Kiểm tra quy trình tiếp nhận hồ sơ TTHC, giám sát hoạt động Trợ lý số bằng giọng nói và kiểm tra tiến độ trả kết quả cấp bản sao hộ tịch.",
+      "isImportant": false
+    },
+    {
+      "id": "sch-3",
+      "leaderName": "Đồng chí Lê Hoàng Quân",
+      "leaderRole": "Phó Chủ tịch UBND (Đô thị)",
+      "dateStr": "Thứ Sáu, 23/10/2026",
+      "timeStr": "08:30 - 11:00",
+      "location": "Hội trường Tầng 2 - Trụ sở UBND",
+      "type": "Họp giao ban",
+      "content": "Họp giao ban chuyên đề quản lý đất đai, trật tự xây dựng và công tác phòng cháy chữa cháy 9 tháng đầu năm với các Trưởng khu phố.",
+      "isImportant": true
+    },
+    {
+      "id": "sch-4",
+      "leaderName": "Thường trực Đảng ủy - HĐND - UBND",
+      "leaderRole": "Ban Thường vụ Đảng ủy",
+      "dateStr": "Thứ Hai, 26/10/2026",
+      "timeStr": "07:30 - 09:00",
+      "location": "Sân cờ & Phòng họp Đảng ủy",
+      "type": "Chỉ đạo điều hành",
+      "content": "Lễ Chào cờ đầu tuần và Họp giao ban Thường trực Đảng ủy - HĐND - UBND đánh giá công tác tuần, triển khai nhiệm vụ trọng tâm tuần mới.",
+      "isImportant": true
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "fb-1",
+      "senderName": "Bác Lê Văn Dũng",
+      "phone": "0903 *** 124",
+      "neighborhood": "Khu phố 2, Phường Tân Mỹ",
+      "category": "Thủ tục hành chính",
+      "content": "Tôi 68 tuổi, vừa rồi đến bộ phận Một cửa làm thủ tục trích lục khai sinh được các cháu cán bộ hướng dẫn dùng Trợ lý số bằng giọng nói rất thuận tiện, không cần phải bấm kính đọc chữ nhỏ. Xin cảm ơn UBND phường.",
+      "createdAt": "19/10/2026",
+      "status": "Đã giải quyết",
+      "officialResponse": "UBND Phường Tân Mỹ trân trọng cảm ơn ý kiến đóng góp quý báu của Bác. Phường sẽ tiếp tục nâng cao chất lượng phục vụ nhân dân ngày càng tốt hơn.",
+      "officerInCharge": "Bộ phận Tiếp nhận & Trả kết quả"
+    },
+    {
+      "id": "fb-2",
+      "senderName": "Chị Nguyễn Hoài Phương",
+      "phone": "0918 *** 892",
+      "neighborhood": "Khu phố 4, Phường Tân Mỹ",
+      "category": "Vệ sinh môi trường",
+      "content": "Đoạn đường đầu hẻm số 14 có xe chở phế liệu để bao tải rác che khuất tầm nhìn của người tham gia giao thông. Đề nghị phường nhắc nhở.",
+      "createdAt": "17/10/2026",
+      "status": "Đã giải quyết",
+      "officialResponse": "Đội Trật tự Đô thị phối hợp Ban điều hành Khu phố 4 đã xuống hiện trường lập biên bản nhắc nhở hộ kinh doanh, yêu cầu dọn dẹp vệ sinh ngay trong ngày.",
+      "officerInCharge": "Đội Trật tự Đô thị"
+    },
+    {
+      "id": "fb-3",
+      "senderName": "Anh Phạm Minh Tuấn",
+      "phone": "0977 *** 450",
+      "neighborhood": "Khu phố 1, Phường Tân Mỹ",
+      "category": "Trật tự đô thị",
+      "content": "Xin hỏi lịch làm việc vào sáng thứ Bảy của bộ phận Một cửa có giải quyết chứng thực hợp đồng mua bán nhà đất không?",
+      "createdAt": "16/10/2026",
+      "status": "Đã giải quyết",
+      "officialResponse": "Dạ chào Anh Tuấn, sáng thứ Bảy (07:30 - 11:30) bộ phận Một cửa tiếp nhận chứng thực sao y bản chính, chứng thực chữ ký và các thủ tục hộ tịch cấp bách. Thủ tục chứng thực hợp đồng giao dịch đất đai được giải quyết từ thứ Hai đến thứ Sáu để phối hợp công chức Tư pháp và Địa chính kiểm tra hồ sơ.",
+      "officerInCharge": "Quầy Tư pháp - Hộ tịch"
+    }
+  ],
+  "transparencyDocs": [
+    {
+      "id": "trans-01",
+      "title": "Quyết định công bố Danh mục Thủ tục hành chính chuẩn hóa áp dụng tại UBND Phường Tân Mỹ",
+      "documentCode": "QĐ-1582/QĐ-UBND",
+      "category": "Thủ tục hành chính",
+      "issueDate": "01/01/2026",
+      "issuingAuthority": "UBND Phường Tân Mỹ",
+      "summary": "Niêm yết công khai toàn bộ 156 thủ tục hành chính thuộc thẩm quyền giải quyết cấp xã/phường trên các lĩnh vực: Hộ tịch, Cư trú, Chứng thực, Đất đai - Xây dựng, Lao động - Thương binh & Xã hội.",
+      "details": "Đầy đủ thời hạn giải quyết, quy trình tiếp nhận một cửa điện tử, thành phần hồ sơ và cam kết không trễ hẹn.",
+      "status": "Đang niêm yết",
+      "fileFormat": "PDF"
+    },
+    {
+      "id": "trans-02",
+      "title": "Bảng niêm yết công khai Mức thu Phí, Lệ phí giải quyết thủ tục hành chính theo Nghị quyết HĐND",
+      "documentCode": "TB-89/TB-UBND",
+      "category": "Thủ tục hành chính",
+      "issueDate": "15/01/2026",
+      "issuingAuthority": "Hội đồng nhân dân & UBND Phường",
+      "summary": "Công khai mức thu phí chứng thực sao y bản chính, đăng ký kết hôn, chứng thực chữ ký, cấp bản sao trích lục hộ tịch và các trường hợp được miễn phí hoàn toàn.",
+      "details": "Quy định rõ các đối tượng chính sách, người có công, hộ nghèo và trẻ em dưới 6 tuổi được miễn 100% lệ phí theo luật định.",
+      "status": "Đang niêm yết",
+      "fileFormat": "PDF"
+    },
+    {
+      "id": "trans-03",
+      "title": "Công khai Dự toán thu — chi Ngân sách Nhà nước năm 2026 của UBND Phường Tân Mỹ",
+      "documentCode": "BC-24/BC-UBND",
+      "category": "Tài chính - Ngân sách",
+      "issueDate": "20/01/2026",
+      "issuingAuthority": "Ban Kinh tế - Ngân sách HĐND & UBND Phường",
+      "summary": "Công khai dự toán thu ngân sách địa phương và phương án phân bổ ngân sách chi thường xuyên, đầu tư phát triển và an sinh xã hội năm 2026.",
+      "amountOrBudget": "18 tỷ 450 triệu VNĐ",
+      "details": "Bao gồm chi cho giáo dục, y tế cơ sở, an ninh quốc phòng, cải cách hành chính và chuyển đổi số.",
+      "status": "Công khai định kỳ",
+      "fileFormat": "XLSX"
+    },
+    {
+      "id": "trans-04",
+      "title": "Báo cáo Quyết toán thu — chi ngân sách phường và các nguồn quỹ công khai năm trước",
+      "documentCode": "QT-08/BC-UBND",
+      "category": "Tài chính - Ngân sách",
+      "issueDate": "10/03/2026",
+      "issuingAuthority": "UBND Phường Tân Mỹ",
+      "summary": "Quyết toán chi tiết các khoản chi hành chính, quản lý trật tự đô thị, phòng chống thiên tai và chế độ cho cán bộ không chuyên trách khu phố.",
+      "amountOrBudget": "16 tỷ 820 triệu VNĐ",
+      "details": "Số liệu được Kiểm toán Nhà nước và Phòng Tài chính - Kế hoạch quận kiểm tra, phê duyệt đạt chuẩn 100%.",
+      "status": "Đã nghiệm thu",
+      "fileFormat": "PDF"
+    },
+    {
+      "id": "trans-05",
+      "title": "Công khai Dự án nâng cấp, mở rộng và thảm nhựa tuyến hẻm 14 & hệ thống cống thoát nước Khu phố 3",
+      "documentCode": "DA-03/QĐ-UBND",
+      "category": "Đầu tư công - Dự án",
+      "issueDate": "15/04/2026",
+      "issuingAuthority": "Ban Quản lý Dự án Đầu tư Phường Tân Mỹ",
+      "summary": "Dự án cải tạo đường giao thông dân sinh, lắp đặt cống hộp chống ngập và hệ thống đèn chiếu sáng năng lượng mặt trời.",
+      "amountOrBudget": "2 tỷ 850 triệu VNĐ",
+      "details": "Nhà thầu thi công: Công ty Xây dựng Đô thị số 7. Thời gian thi công: 90 ngày. Có Ban Giám sát đầu tư của cộng đồng Khu phố 3 theo dõi.",
+      "status": "Đang niêm yết",
+      "fileFormat": "PDF"
+    },
+    {
+      "id": "trans-06",
+      "title": "Công khai Dự án cải tạo Nhà văn hóa và khu vui chơi sinh hoạt thiếu nhi Khu phố 5",
+      "documentCode": "DA-05/QĐ-UBND",
+      "category": "Đầu tư công - Dự án",
+      "issueDate": "01/06/2026",
+      "issuingAuthority": "UBND Phường Tân Mỹ",
+      "summary": "Xây mới phòng sinh hoạt cộng đồng, lắp đặt dụng cụ thể dục ngoài trời và trang bị tủ sách điện tử cho nhân dân khu phố.",
+      "amountOrBudget": "1 tỷ 200 triệu VNĐ",
+      "details": "Công trình hoàn thành chào mừng ngày Quốc khánh, đã bàn giao đưa vào sử dụng phục vụ bà con nhân dân.",
+      "status": "Đã nghiệm thu",
+      "fileFormat": "PDF"
+    },
+    {
+      "id": "trans-07",
+      "title": "Báo cáo công khai kết quả vận động, quản lý và sử dụng Quỹ \"Vì người nghèo\" và Quỹ \"Đền ơn đáp nghĩa\"",
+      "documentCode": "BC-12/MTTQ-UBND",
+      "category": "Quỹ vận động nhân dân",
+      "issueDate": "01/10/2026",
+      "issuingAuthority": "UBMTTQVN Phường Tân Mỹ & UBND Phường",
+      "summary": "Báo cáo minh bạch thu - chi các nguồn đóng góp tự nguyện của nhân dân, nhà hảo tâm, doanh nghiệp; danh sách các gia đình chính sách được nhận hỗ trợ.",
+      "amountOrBudget": "485 triệu VNĐ",
+      "details": "Đã trao 32 suất học bổng, sửa chữa 2 căn nhà tình thương cho hộ khó khăn tại Khu phố 2 và Khu phố 4.",
+      "status": "Công khai định kỳ",
+      "fileFormat": "XLSX"
+    }
+  ],
+  "trafficReports": [
+    {
+      "id": "traffic-1",
+      "streetName": "Đường Nguyễn Thị Thập",
+      "sectionDescription": "Đoạn từ ngã tư Huỳnh Tấn Phát đến Chợ Tân Mỹ (Km 1+200)",
+      "neighborhood": "Khu phố 2 & Khu phố 3",
+      "floodLevel": "medium",
+      "trafficLevel": "jammed",
+      "waterDepthCm": 30,
+      "reportedAt": "16:45 hôm nay",
+      "lastUpdatedAt": "17:15 hôm nay",
+      "reporterName": "Đội Trật tự Đô thị & CSGT",
+      "reporterPhone": "0903 *** 888",
+      "description": "Do triều cường dâng cao kết hợp mưa lớn, nước mấp mé bánh xe máy. Xe di chuyển rất chậm, ùn ứ dài từ chân cầu Tân Mỹ hướng về chợ.",
+      "recommendedAlternative": "Ô tô và xe máy nên rẽ vào đường Nguyễn Văn Linh hoặc đường Mai Văn Vĩnh để tránh đoạn ngập.",
+      "confirmedCount": 38,
+      "resolvedCount": 6,
+      "isOfficialAlert": true,
+      "historyLogs": [
+        {
+          "id": "log-1",
+          "timestamp": "16:45 hôm nay",
+          "updatedBy": "Bác Ba Chợ Tân Mỹ",
+          "floodLevel": "deep",
+          "trafficLevel": "jammed",
+          "note": "Nước bắt đầu tràn lên vỉa hè, nhiều xe máy chết máy."
+        },
+        {
+          "id": "log-2",
+          "timestamp": "17:15 hôm nay",
+          "updatedBy": "Cán bộ Đô thị Phường",
+          "floodLevel": "medium",
+          "trafficLevel": "jammed",
+          "note": "Máy bơm chống ngập trạm Tân Mỹ đã vận hành hết công suất, nước đang hạ dần 10cm nhưng xe vẫn đông."
+        }
+      ]
+    },
+    {
+      "id": "traffic-2",
+      "streetName": "Đường Huỳnh Tấn Phát",
+      "sectionDescription": "Đoạn giao đường Tân Mỹ và đường dẫn lên Cầu Phú Mỹ",
+      "neighborhood": "Khu phố 1",
+      "floodLevel": "deep",
+      "trafficLevel": "jammed",
+      "waterDepthCm": 45,
+      "reportedAt": "16:30 hôm nay",
+      "lastUpdatedAt": "17:20 hôm nay",
+      "reporterName": "Anh Minh (Tài xế giao hàng)",
+      "reporterPhone": "0912 *** 345",
+      "description": "Ngập sâu hơn 40cm đoạn trước số nhà 120-150. Xe máy bị chết máy liên tục, ô tô gầm thấp không thể qua được. Lực lượng dân quân đang hỗ trợ người dân đẩy xe.",
+      "recommendedAlternative": "Nên đi vòng qua đường Trần Trọng Khiêm hoặc đường Gò Ô Môi.",
+      "confirmedCount": 52,
+      "resolvedCount": 3,
+      "isOfficialAlert": true,
+      "historyLogs": [
+        {
+          "id": "log-2a",
+          "timestamp": "16:30 hôm nay",
+          "updatedBy": "Người dân KP1",
+          "floodLevel": "deep",
+          "trafficLevel": "jammed",
+          "note": "Nước dâng nhanh ngập lút ống xả xe máy."
+        }
+      ]
+    },
+    {
+      "id": "traffic-3",
+      "streetName": "Đường Lâm Văn Bền",
+      "sectionDescription": "Đoạn trước Trường THCS Tân Mỹ đến giao lộ Nguyễn Thị Thập",
+      "neighborhood": "Khu phố 4",
+      "floodLevel": "low",
+      "trafficLevel": "slow",
+      "waterDepthCm": 15,
+      "reportedAt": "16:50 hôm nay",
+      "lastUpdatedAt": "17:10 hôm nay",
+      "reporterName": "Chị Lan Phụ huynh học sinh",
+      "reporterPhone": "0988 *** 678",
+      "description": "Nước ngập mấp mé mép đường khoảng 10-15cm, xe máy vẫn di chuyển bình thường nhưng phụ huynh đón con đông nên di chuyển chậm.",
+      "recommendedAlternative": "Lưu thông bình thường, giảm tốc độ khi đi qua khu vực trường học.",
+      "confirmedCount": 19,
+      "resolvedCount": 12,
+      "isOfficialAlert": false,
+      "historyLogs": [
+        {
+          "id": "log-3a",
+          "timestamp": "17:10 hôm nay",
+          "updatedBy": "Người dân địa phương",
+          "floodLevel": "low",
+          "trafficLevel": "slow",
+          "note": "Nước rút nhanh qua các miệng cống vừa được nạo vét."
+        }
+      ]
+    },
+    {
+      "id": "traffic-4",
+      "streetName": "Đường Tân Mỹ (Tuyến chính UBND)",
+      "sectionDescription": "Đoạn trước Trụ sở UBND Phường Tân Mỹ và Trạm Y tế",
+      "neighborhood": "Khu phố 3",
+      "floodLevel": "none",
+      "trafficLevel": "clear",
+      "waterDepthCm": 0,
+      "reportedAt": "17:00 hôm nay",
+      "lastUpdatedAt": "17:22 hôm nay",
+      "reporterName": "Tổ Trực ban Một cửa UBND Phường",
+      "description": "Tuyến đường khô ráo hoàn toàn, hệ thống cống thoát nước hoạt động tốt. Giao thông thông thoáng, người dân đến làm thủ tục một cửa thuận lợi.",
+      "recommendedAlternative": "Tuyến đường an toàn, lưu thông tốt.",
+      "confirmedCount": 41,
+      "resolvedCount": 28,
+      "isOfficialAlert": true,
+      "historyLogs": [
+        {
+          "id": "log-4a",
+          "timestamp": "17:22 hôm nay",
+          "updatedBy": "Cán bộ Một cửa",
+          "floodLevel": "none",
+          "trafficLevel": "clear",
+          "note": "Đường thông thoáng, không ngập nước."
+        }
+      ]
+    },
+    {
+      "id": "traffic-5",
+      "streetName": "Đường Mai Văn Vĩnh",
+      "sectionDescription": "Đoạn từ đường số 10 đến bờ kè rạch Ông Đội",
+      "neighborhood": "Khu phố 5",
+      "floodLevel": "medium",
+      "trafficLevel": "slow",
+      "waterDepthCm": 25,
+      "reportedAt": "16:40 hôm nay",
+      "lastUpdatedAt": "17:05 hôm nay",
+      "reporterName": "Anh Tuấn (Công dân KP5)",
+      "description": "Nước triều mấp mé tràn bờ kè, ngập khoảng nửa bánh xe máy đoạn cua rạch. Đã có biển cảnh báo của Phường.",
+      "recommendedAlternative": "Đi theo trục đường số 7 hoặc số 9.",
+      "confirmedCount": 24,
+      "resolvedCount": 8,
+      "isOfficialAlert": false,
+      "historyLogs": []
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "unitName": "Trụ sở Đảng ủy - HĐND - UBND Phường Tân Mỹ",
+      "personInCharge": "Văn phòng HĐND & UBND Phường",
+      "role": "Bộ phận Tiếp nhận thông tin & Đường dây nóng",
+      "phone": "(028) 3771 8899",
+      "hotline": "1900 88 66 99",
+      "email": "ubnd.tanmy@tphcm.gov.vn",
+      "address": "Số 01 Đường Tân Mỹ, Phường Tân Mỹ",
+      "workingHours": "Thứ 2 - Thứ 6 (07:30 - 11:30 & 13:30 - 17:00); Thứ 7 (07:30 - 11:30)",
+      "category": "Thường trực Lãnh đạo"
+    },
+    {
+      "id": "contact-2",
+      "unitName": "Bộ phận Một cửa Điện tử (Bộ phận Tiếp nhận & Trả kết quả)",
+      "personInCharge": "Đ/c Trần Thị Mai",
+      "role": "Phó Chủ tịch UBND phụ trách Một cửa",
+      "phone": "(028) 3771 8890",
+      "email": "motcua.tanmy@tphcm.gov.vn",
+      "address": "Sảnh chính Tầng trệt, Trụ sở UBND Phường Tân Mỹ",
+      "workingHours": "Sáng 07:30 - 11:30, Chiều 13:30 - 17:00 (Thứ 2 đến sáng Thứ 7)",
+      "category": "Một cửa"
+    },
+    {
+      "id": "contact-3",
+      "unitName": "Công an Phường Tân Mỹ",
+      "personInCharge": "Đ/c Trưởng Công an Phường",
+      "role": "Trực ban Hình sự - Đăng ký Cư trú & VNeID",
+      "phone": "(028) 3771 5113",
+      "hotline": "113",
+      "email": "congan.tanmy@tphcm.gov.vn",
+      "address": "Số 05 Đường Tân Mỹ, Phường Tân Mỹ",
+      "workingHours": "Trực chiến 24/24 giờ tất cả các ngày trong tuần",
+      "category": "Công an - Quân sự"
+    },
+    {
+      "id": "contact-4",
+      "unitName": "Ban Chỉ huy Quân sự Phường Tân Mỹ",
+      "personInCharge": "Đ/c Chỉ huy trưởng Quân sự",
+      "role": "Quản lý Dân quân & Nghĩa vụ quân sự",
+      "phone": "(028) 3771 2234",
+      "email": "quansu.tanmy@tphcm.gov.vn",
+      "address": "Số 01 Đường Tân Mỹ (Khu nhà công vụ)",
+      "workingHours": "Giờ hành chính & Trực ban phòng chống bão lụt 24/24",
+      "category": "Công an - Quân sự"
+    },
+    {
+      "id": "contact-5",
+      "unitName": "Trạm Y tế Phường Tân Mỹ",
+      "personInCharge": "Bác sĩ Trưởng Trạm",
+      "role": "Tiêm chủng mở rộng - Khám chữa bệnh ban đầu",
+      "phone": "(028) 3771 4456",
+      "hotline": "115",
+      "email": "tramyte.tanmy@tphcm.gov.vn",
+      "address": "Số 12 Đường Số 2, Khu Dân cư Tân Mỹ",
+      "workingHours": "07:30 - 17:00 hàng ngày & Trực cấp cứu ban đầu",
+      "category": "Đoàn thể"
+    },
+    {
+      "id": "contact-6",
+      "unitName": "Ủy ban Mặt trận Tổ quốc Việt Nam Phường Tân Mỹ",
+      "personInCharge": "Đ/c Chủ tịch UBMTTQVN Phường",
+      "role": "Khối Đại đoàn kết toàn dân & Giám sát cộng đồng",
+      "phone": "(028) 3771 6789",
+      "email": "mttq.tanmy@tphcm.gov.vn",
+      "address": "Tầng 2, Trụ sở UBND Phường Tân Mỹ",
+      "workingHours": "Giờ hành chính (Thứ 2 đến Thứ 6)",
+      "category": "Đoàn thể"
+    }
+  ],
+  "partyGovLeaders": [
+    {
+      "id": "pg-1",
+      "group": "dang_uy",
+      "role": "Bí thư Đảng ủy Phường",
+      "name": "Đồng chí Trần Quốc Tuấn",
+      "responsibilities": "Phụ trách toàn diện công tác xây dựng Đảng, chính trị tư tưởng, tổ chức cán bộ và quốc phòng an ninh.",
+      "phone": "(028) 3771 8891",
+      "email": "tuantq.tanmy@tphcm.gov.vn"
+    },
+    {
+      "id": "pg-2",
+      "group": "dang_uy",
+      "role": "Phó Bí thư Thường trực Đảng ủy - Chủ tịch HĐND Phường",
+      "name": "Đồng chí Lê Thị Kim Oanh",
+      "responsibilities": "Chủ trì công tác văn phòng cấp ủy, kiểm tra giám sát, dân vận, quy chế dân chủ cơ sở và hoạt động của HĐND.",
+      "phone": "(028) 3771 8892",
+      "email": "oanhltk.tanmy@tphcm.gov.vn"
+    },
+    {
+      "id": "pg-3",
+      "group": "hdnd_ubnd",
+      "role": "Phó Bí thư Đảng ủy - Chủ tịch UBND Phường",
+      "name": "Đồng chí Nguyễn Văn An",
+      "responsibilities": "Lãnh đạo, chỉ đạo điều hành toàn diện hoạt động của UBND Phường; phụ trách trực tiếp cải cách hành chính, an ninh quốc phòng.",
+      "phone": "(028) 3771 8893",
+      "email": "annv.tanmy@tphcm.gov.vn"
+    },
+    {
+      "id": "pg-4",
+      "group": "hdnd_ubnd",
+      "role": "Phó Chủ tịch UBND (Văn hóa - Xã hội)",
+      "name": "Đồng chí Trần Thị Mai",
+      "responsibilities": "Trực tiếp chỉ đạo Bộ phận Một cửa, Cải cách hành chính, Giáo dục, Y tế, LĐ-TB&XH, Chuyển đổi số và an sinh nhân dân.",
+      "phone": "(028) 3771 8890",
+      "email": "maitt.tanmy@tphcm.gov.vn"
+    },
+    {
+      "id": "pg-5",
+      "group": "hdnd_ubnd",
+      "role": "Phó Chủ tịch UBND (Đô thị - Địa chính)",
+      "name": "Đồng chí Lê Hoàng Quân",
+      "responsibilities": "Trực tiếp chỉ đạo quản lý đất đai, trật tự xây dựng, tài nguyên môi trường, PCCC, chống ngập và an toàn giao thông.",
+      "phone": "(028) 3771 8894",
+      "email": "quanlh.tanmy@tphcm.gov.vn"
+    },
+    {
+      "id": "pg-6",
+      "group": "doan_the",
+      "role": "Chủ tịch UBMTTQVN Phường Tân Mỹ",
+      "name": "Đồng chí Nguyễn Thanh Phong",
+      "responsibilities": "Chủ trì khối Đại đoàn kết toàn dân tộc, các cuộc vận động nhân dân, giám sát và phản biện xã hội.",
+      "phone": "(028) 3771 6789",
+      "email": "mttq.tanmy@tphcm.gov.vn"
+    }
+  ],
+  "layoutConfig": {
+    "homeGreeting": "Bạn cần làm thủ tục gì?",
+    "homeSubDescription": "Hệ thống hướng dẫn tự động bằng giọng nói dành cho công dân phường Tân Mỹ",
+    "tabs": [
+      {
+        "id": "home",
+        "label": "Trang chủ",
+        "sublabel": "Trợ lý số & Kiosk Một cửa",
+        "iconName": "Home",
+        "isVisible": true,
+        "order": 1
+      },
+      {
+        "id": "procedures",
+        "label": "Thủ tục hành chính",
+        "sublabel": "Kho biểu mẫu & Dịch vụ công",
+        "iconName": "FileText",
+        "isVisible": true,
+        "order": 2
+      },
+      {
+        "id": "news",
+        "label": "Tin tức & Sự kiện",
+        "sublabel": "Bảng tin hoạt động Phường",
+        "iconName": "Newspaper",
+        "isVisible": true,
+        "order": 3
+      },
+      {
+        "id": "schedule",
+        "label": "Lịch công tác",
+        "sublabel": "Tiếp dân & Lịch lãnh đạo",
+        "iconName": "CalendarDays",
+        "isVisible": true,
+        "order": 4
+      },
+      {
+        "id": "party_gov",
+        "label": "Đảng ủy - UBND",
+        "sublabel": "Chỉ đạo điều hành & Đoàn thể",
+        "iconName": "Landmark",
+        "isVisible": true,
+        "order": 5
+      },
+      {
+        "id": "transparency",
+        "label": "Niêm yết & Giám sát",
+        "sublabel": "Thủ tục, ngân sách, đầu tư",
+        "iconName": "ShieldCheck",
+        "isVisible": true,
+        "order": 6
+      },
+      {
+        "id": "feedback",
+        "label": "Góp ý & Phản ánh",
+        "sublabel": "Gửi kiến nghị cho chính quyền",
+        "iconName": "MessageSquareHeart",
+        "isVisible": true,
+        "order": 7
+      },
+      {
+        "id": "traffic_flood",
+        "label": "Đường ngập & Kẹt xe",
+        "sublabel": "Tra cứu & cập nhật nước rút 24/7",
+        "iconName": "Waves",
+        "isVisible": true,
+        "order": 8
+      },
+      {
+        "id": "contacts",
+        "label": "Liên hệ & Danh bạ",
+        "sublabel": "Đường dây nóng địa bàn",
+        "iconName": "PhoneCall",
+        "isVisible": true,
+        "order": 9
+      }
+    ]
+  },
+  "stats": {
+    "totalVisits": 1428,
+    "totalVoiceQueries": 934,
+    "satisfiedVotes": 918,
+    "totalRatings": 932,
+    "averageRating": 4.9,
+    "likesCount": 652,
+    "procedureViews": {
+      "proc-khai-sinh": 412,
+      "proc-ket-hon": 218,
+      "proc-sao-y-cong-chung": 324,
+      "proc-tam-tru-thuong-tru": 186,
+      "proc-xac-nhan-doc-than": 142
+    }
+  },
+  "officers": [
+    {
+      "id": "off-01",
+      "code": "CB-ADMIN-01",
+      "name": "Nguyễn Văn An",
+      "role": "Trưởng Bộ phận Một cửa (Quản trị viên)",
+      "assignedCategory": "Tất cả",
+      "email": "an.nguyen@tanmy.gov.vn",
+      "phone": "0908.123.456",
+      "isActive": true
+    },
+    {
+      "id": "off-02",
+      "code": "CB-HOTICH-02",
+      "name": "Trần Thị Mai",
+      "role": "Công chức Tư pháp - Hộ tịch",
+      "assignedCategory": "Hộ tịch",
+      "email": "mai.tran@tanmy.gov.vn",
+      "phone": "0903.234.567",
+      "isActive": true
+    },
+    {
+      "id": "off-03",
+      "code": "CB-DATDAI-03",
+      "name": "Lê Hoàng Nam",
+      "role": "Công chức Địa chính - Đất đai & Xây dựng",
+      "assignedCategory": "Đất đai - Xây dựng",
+      "email": "nam.le@tanmy.gov.vn",
+      "phone": "0912.345.678",
+      "isActive": true
+    },
+    {
+      "id": "off-04",
+      "code": "CB-CHUNGTHUC-04",
+      "name": "Phạm Minh Tuấn",
+      "role": "Chuyên viên Tiếp nhận Chứng thực",
+      "assignedCategory": "Chứng thực",
+      "email": "tuan.pham@tanmy.gov.vn",
+      "phone": "0988.456.789",
+      "isActive": true
+    },
+    {
+      "id": "off-05",
+      "code": "CB-CUTRU-05",
+      "name": "Vũ Thị Hoa",
+      "role": "Cán bộ Quản lý Cư trú & VNeID",
+      "assignedCategory": "Cư trú",
+      "email": "hoa.vu@tanmy.gov.vn",
+      "phone": "0977.567.890",
+      "isActive": true
+    }
+  ],
+  "lastUpdated": 1729480000000
+}
